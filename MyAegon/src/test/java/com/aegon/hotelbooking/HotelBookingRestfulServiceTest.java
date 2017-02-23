@@ -1,7 +1,5 @@
 package com.aegon.hotelbooking;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +21,7 @@ import com.aegon.hotelbooking.model.RoomAvailablity;
 import com.aegon.hotelbooking.repository.Repository;
 
 @RunWith(MockitoJUnitRunner.class)
-public class HotelBookingRestulServiceTest {
+public class HotelBookingRestfulServiceTest {
 
 	@InjectMocks
 	private HotelBookingRestfulServices testee;
